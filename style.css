@@ -1,0 +1,44 @@
+*,::after,::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+}
+h1{
+    font-family: cursive;
+    font-size: 56px;
+    color: darkolivegreen;
+    font-weight: 600;
+    margin-bottom: 3.5rem;
+}
+input#amount{
+    padding: 15px 30px;
+    background: whitesmoke;
+    border-radius: 8px;
+    outline: 0;
+    border: 1px solid #ddd;
+    font-size: 18px;
+    font-weight: 700;
+}
+.btn{
+    padding: 14px 30px;
+    background: #528ec7;
+    border-radius: 8px;
+    outline: 0;
+    color: #fff;
+    font-size: 18px;
+    border: 0;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.result{
+    padding-top: 80px;
+    width: 1000px;
+    margin: 0 auto;
+    font-size: 22px;
+    font-family: sans-serif;
+    color: #000;
+    line-height: 16px;
+}
